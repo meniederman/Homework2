@@ -1,0 +1,131 @@
+html, *{
+    margin: 0;
+    padding: 0;
+}
+
+body { font-family:Cambria;
+    margin: 0;
+    color: black;
+    
+}
+
+header { 
+    
+    padding: 30px;
+    color: papayawhip;
+    background: salmon;
+    font-size: 350%;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+h1{
+
+    text-align: center;
+}
+
+h2 {
+    font-size: 150%;
+    text-decoration: underline;
+    font-family: cursive;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+
+h4 {
+    font-size: 100%;
+    font-family: cursive;
+    
+}
+nav {
+    background-color: salmon;
+    text-align: center;
+    padding: 15px;
+
+    
+}
+
+nav a {
+    color:papayawhip;
+    padding: 60px 60px;
+    text-align: center;
+    font-size: 100%;
+
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+
+}
+
+
+.col-1 {
+
+    text-align: center;
+    padding: 20px;
+    font-size: 100%;
+    flex-basis: 50%;
+    background-color: papayawhip;
+    margin: 0;
+   
+    
+}
+
+.col-2 {
+    text-align: center;
+    padding: 20px;
+    font-size: 100%;
+    flex-basis: 50%;
+    margin: 1px;
+
+}
+
+#resume {
+margin-top: 30px;
+font-weight: bold;
+
+}
+
+.big-Img {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+      }
+
+  .small-Img {
+    width: 100%;
+    padding: 20px;
+    
+
+    
+
+      }
+
+      .img-Container > div{
+          float:left;
+          margin-right: 70px;
+          margin-top: 30px;
+          margin-left: 30px;
+      }
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background: salmon;
+    color: papayawhip;
+    font-size:150%;
+    font-weight: bold;
+    
+
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+      flex-direction: column;
+    }
+}
